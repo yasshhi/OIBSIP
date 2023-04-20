@@ -5,13 +5,15 @@
     background-color: #ecf0f3;
     font-family: sans-serif;
     outline: none;
+    background: rgb(34, 36, 76);
 }
 .container{
-    height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    display: flex;
 }
+    
 .calculator{
     background-color: #ecf0f3;
     padding: 15px;
@@ -53,9 +55,9 @@ button{
     
 }
 .equalto{
-    border-radius: 40px;
     width: 115px;
     background-color: #60e7af;
+    border-radius: 40px;
 }
 .clear{
     background-color: #e76060;
@@ -63,5 +65,3 @@ button{
 .delete{
     background-color: #e76060;
 }
-
-    
